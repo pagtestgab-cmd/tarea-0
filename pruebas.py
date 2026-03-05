@@ -1,6 +1,6 @@
 import requests
 
-url = "https://tarea-0_py0u.onrender.com/tarea-0"
+url = "https://tarea-0-1-161w.onrender.com"
 
 response = requests.get(url)
 
