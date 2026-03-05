@@ -4,7 +4,7 @@ import requests
 # url = "http://127.0.0.1:8000/"
 
 # Remoto en Render
-url = "https://tarea-0-1-161w.onrender.com"
+url = "https://tarea-0-9j0h.onrender.com"
 
 
 respuesta = requests.get(url)
