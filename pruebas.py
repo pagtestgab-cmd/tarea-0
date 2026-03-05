@@ -1,8 +1,11 @@
 import requests
 
-url = "https://tarea-0-1-161w.onrender.com"
+# Local
+# url = "http://127.0.0.1:8000/"
 
-response = requests.get(url)
+# Remoto en Render
+url = "https://tarea-0-1dwn.onrender.com/"
 
-print("Código de estado:", response.status_code)
-print("Respuesta:", response.json())
+
+respuesta = requests.get(url)
+print(respuesta.json())
